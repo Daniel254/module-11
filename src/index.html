@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./base.js" type="module"></script>
     <title>Module 11</title>
   </head>
   <body>
-    <form class="post-form">
-      <input type="input" name="post-input" />
-      <button type="submit">Send post</button>
-    </form>
+    <div class="container">
+      <div class="form-box">
+        <form class="post-form">
+          <input type="input" name="taskName" />
+          <button type="submit">Send post</button>
+        </form>
+      </div>
+      <ul class="todo-list"></ul>
+    </div>
   </body>
-  <script src="./index.js" type="module"></script>
 </html>

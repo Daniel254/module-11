@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+.form-box,
+.todo-list {
+  width: 400px;
+}
+.todo-list__list-item {
+  position: relative;
+}
+.todo-list__delete {
+  /* align: right; */
+  position: absolute;
+  right: 0;
+  /* color: rgba(0, 0, 0, 0.6); */
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 1em;
+  height: 1em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
